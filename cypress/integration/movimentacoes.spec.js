@@ -58,7 +58,7 @@ beforeEach(() => {
 
     })
 
-    it.only('deve criar uma movimentacao de credito', () => {
+    it('deve criar uma movimentacao de credito', () => {
     cy.get(seubarriga_elements.botaoMovimentacao()).click()
 
       cy.get(seubarriga_elements.inputDescricao())
