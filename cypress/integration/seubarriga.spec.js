@@ -86,7 +86,7 @@ it('deverá editar conta existente', () => {
 
     cy.get(seubarriga_elements.botao()).click()
     cy.get(seubarriga_elements.alerta())
-        .should('have.text', 'Conta atualizada com sucesso!') 
+        .should('have.text', 'Conta atualizada com sucesso!'); 
 
 })
 
